@@ -25,7 +25,7 @@
     <h3>Método Get:</h3>
     <p>
       <label for="nombre">Nombre:</label>
-      <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" />
+      <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required autocomplete="off"/>
     </p>
     <p>
       <label for="apellido">Apellido:</label>
@@ -52,7 +52,6 @@
       <label for="edad">Edad:<input type="number" name="edad" id="edad" placeholder="Ingrese su edad" value="1" min="1"
           max="99" /></label>
     </p>
-    <input type="submit" value="Enviar">
   </form>
 
   <h3>
@@ -69,6 +68,10 @@
   <p><label for="radio2"><input type="radio" name="opciones" id="radio2" value="2">Opcion 2</label></p>
   <p><label for="radio3"><input type="radio" name="opciones" id="radio3" value="3">Opcion 3</label></p>
   <p><label for="radio4"><input type="radio" name="opciones" id="radio4" value="4">Opcion 4</label></p>
+
+  <textarea name="" id="" cols="50" rows="5">Escriba su consulta</textarea>
+  <br><br>
+  <input type="submit" value="Enviar">
 
   <footer></footer>
 </body>
