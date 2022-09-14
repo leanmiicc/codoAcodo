@@ -1,0 +1,22 @@
+p {
+  font-size: 1em; /* 1em == 16px medida por default del explorador */
+}
+
+/*los font-size tratar de trabajarlos en em, rem o %, como buenas practicas.
+/*
+.parrafos{
+    font-size: 2em; /* == 32px 
+}
+*/
+
+.padre {
+  width: 600px;
+  border-color: blue;
+  border-style: solid;
+}
+
+.hijo {
+  width: 80%;
+  border-color: green;
+  border-style: solid;
+}
