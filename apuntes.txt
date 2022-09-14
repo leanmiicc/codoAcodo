@@ -1,0 +1,2 @@
+Clase de CSS 2:
+- font-size: siempre manejar la medida em, rem o % como buena practica.
