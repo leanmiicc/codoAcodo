@@ -1,2 +1,10 @@
 Clase de CSS 2:
 - font-size: siempre manejar la medida em, rem o % como buena practica.
+los font-size tratar de trabajarlos en em, rem o %, como buenas practicas.
+
+.parrafos{
+    font-size: 2em; /* == 32px 
+}
+/* 1em == 16px medida por default del explorador */
+
+Medida ViewPort:
