@@ -1,0 +1,24 @@
+div{
+    width:100px;
+    height:100px;
+    float:left;
+    margin:5px;
+    background-color: yellow;
+    border:1px solid black;
+}
+
+#uno:hover{
+    transform: translate(150px,150px)
+}
+#dos:hover{
+    transform: scale(1,.5);
+}
+#tres:hover{
+    transform:rotate(45deg);
+}
+#cuatro:hover{
+    transform:skewX(45deg);
+}
+#cinco:hover{
+    transform:skewY(-45deg);
+}
